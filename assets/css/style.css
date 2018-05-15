@@ -6,6 +6,22 @@
     background-color: #676767
 }
 
+.ui-menu-color-home {
+    background-color: #e67e22;
+}
+
+.ui-menu-color-resume {
+    background-color: #9b59b6;
+}
+
+.ui-menu-color-contact {
+    background-color: #3498db;
+}
+
+.ui-menu-color-download {
+    background-color: #525252;
+}
+
 /*--------------------------------------heading*/
 
 header {
@@ -19,17 +35,17 @@ header {
 }
 
 .logo {
-    background: url("/assets/images/2017-20-4--00-37-43.jpeg");
+    background: url(/assets/images/2017-20-4--00-37-43.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
-    min-width: 360px;
+    transition: all .5s ease-in-out
 }
 
 .name {
     font-family: "Exo", sans-serif;
- font-weight: 100;
+    font-weight: 100;
     font-size: 46px;
     margin-top: 50px;
     color: #ffffff;
@@ -42,5 +58,5 @@ header {
     margin-top: 20px;
     margin-bottom: 90px;
     color: #ffffff;
-    
+
 }
